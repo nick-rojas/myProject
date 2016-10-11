@@ -1,5 +1,24 @@
+html{
+	font-family: 'Droid Sans', sans-serif;
+}
 body{
 	background: #f9e933;
+	font-size: 100%;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Ubuntu', sans-serif;
+}
+h1{
+	font-size: xx-large;
+	padding: 25px;
+	padding-left: 250px;
+
+}
+h2{
+	font-size: x-large;
+}
+h3{
+	font-size: large;
 }
 header, main, footer {
 	min-width: 855px;
@@ -10,20 +29,29 @@ header.container,main.container,footer.container{
 }
 header{
 	background: white;
+
 	overflow: auto;
 }
 header h1{
+	text-decoration: none;
 	float: left;
 	width: 570px;
+}
+nav{
+	text-decoration: none;
+	color: gray;
 }
 header nav{
 	float: right;
 	width: 285px;
+	
 }
 main{
 	background:white;
 	overflow: auto;
-
+	text-align: left;
+	padding: 25px;
+	padding-left: 250px;
 }
 .details{
 	float: left;
@@ -36,8 +64,10 @@ main{
 footer{
 	clear: both;
 	overflow: auto;
+	padding: 25px;
 }
 .sitemap{
+	color: gray;
 	float: right;
 	width: 285px;
 }
