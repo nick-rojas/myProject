@@ -4,9 +4,45 @@ body{
 header, main, footer {
 	min-width: 855px;
 }
+header.container,main.container,footer.container{
+	max-width: 855px;
+	margin: auto;
+}
 header{
 	background: white;
+	overflow: auto;
+}
+header h1{
+	font-family: 'Denk One',sans-serif;
+	float: left;
+	width: 570px;
+}
+header nav{
+	float: right;
+	width: 285px;
 }
 main{
 	background:white;
+	overflow: auto;
+
+}
+.details{
+	float: left;
+	width: 570px;
+}
+.image{
+	float: right;
+	width: 285px;
+}
+footer{
+	clear: both;
+	overflow: auto;
+}
+.sitemap{
+	float: right;
+	width: 285px;
+}
+.contact{
+	float: left;
+	width: 570px;
 }
